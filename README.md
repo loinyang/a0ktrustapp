@@ -1,6 +1,12 @@
+You need to enable : OAuth APIs,  People API, Driver Api.
+
+Make sure you've filled out all required fields in the console for OAuth consent screen. Otherwise, you may encounter APIException errors.
+
+
 Android User
 
-replace package value in the file(android/app/src/main/AndroidManifest.xml),and create a google api service with name of (package value)
+You don't need to include the google-services.json file in your app.
+
 
 Ios User
 
